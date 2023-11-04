@@ -3,19 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-
-
-
-<script defer src=".js/script.js"></script>
 
 <link rel="icon" type="image/png" sizes="16x16"  href="./favicons/favicon-16x16.png">
 <link rel="stylesheet" href="./css/style.css">
 
-
-
-
-<title>Digimons</title>
 </head>
 
 
@@ -26,23 +17,24 @@
         <span class="digimon_name"></span>
         <span class="digimon_level"></span>
     </h1>
-    <form class="form">
-        <input type="search"
-        class="input_search"
-        placeholder="Digite o digimon"
-        required>
-    </form>
+    <form id="digimonForm">
+        <label for="digimonName">Nome do Digimon:</label>
+        <input type="text" id="digimonName" name="digimonName">
+        <button type="submit">Buscar Digimon</button>
+      </form>
+      <div class="digimon_name"></div>
+      
 <div class="buttons">
     <button class="button btn-prev">Antes </button>
     <button class="button btn-next">Proxi </button>
 </div>
     <img src="./images/digimon.png" alt="logo" class="logo">
     <img src="./images/95b14a345d2e9e80ddaaa0e825afdae8-removebg-preview.png" alt="digidex" class="digidex">
-    <img src="https://digimon.shadowsmith.com/img/agumon.jpg" alt="digimon" class="digimon_image">
+    <!-- <img src="https://digimon.shadowsmith.com/img/agumon.jpg" alt="digimon" class="digimon_image"> -->
+    <img src="" alt="Digimon" class="digimon_image">
+
    </main>
     
-
-
-
+   <script src="./js/script.js"></script>
 </body>
 </html>
