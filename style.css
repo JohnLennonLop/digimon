@@ -51,6 +51,7 @@ main{
 .digimon_name {
     color:rgb(35, 75, 62);
     text-transform: capitalize;
+    
 }
 .form{
     position: absolute;
